@@ -1,0 +1,1 @@
+This is an i2c library written for communicating - mainly reading the accelerometer and gyroscope data from the MPU6050 IMU sensor. While the main purpose of this project is to gain a better understanding and experience in embedded systems, this project could as well turn out to be a fully usable library for the MPU6050.
