@@ -119,9 +119,9 @@ int main(void)
   	  printf("\nSensor woke up!");
     else
   	  printf("\nFailed to wake up sensor!");
-//    printf("\nPerforming WHO_AM_I");
-//    uint8_t data = MPU6050_Who(&hi2c1);
-//    printf("\nThe device address is 0x%x",data);
+    printf("\nPerforming WHO_AM_I");
+    uint8_t data = MPU6050_Who(&hi2c1);
+    printf("\nThe device address is 0x%x",data);
 
   /* USER CODE END 2 */
 
@@ -130,10 +130,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-//	  printf("\nCode running...");
-	  float accx = MPU6050_Read_AccX(&hi2c1);
-	  printf("Accx: %f",accx);
-	  HAL_Delay(500);
+	  printf("\nCode running...");
+	  HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

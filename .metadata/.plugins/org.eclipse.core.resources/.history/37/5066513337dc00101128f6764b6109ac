@@ -119,9 +119,9 @@ int main(void)
   	  printf("\nSensor woke up!");
     else
   	  printf("\nFailed to wake up sensor!");
-//    printf("\nPerforming WHO_AM_I");
-//    uint8_t data = MPU6050_Who(&hi2c1);
-//    printf("\nThe device address is 0x%x",data);
+    printf("\nPerforming WHO_AM_I");
+    uint8_t data = MPU6050_Who(&hi2c1);
+    printf("\nThe device address is 0x%x",data);
 
   /* USER CODE END 2 */
 
