@@ -16,7 +16,7 @@
 #define REG_ACCEL_XOUT_H 0x3b
 
 
-uint8_t MPU6050_Read_AccX(I2C_HandleTypeDef *i2c);
-uint8_t MPU6050_WakeUp(I2C_HandleTypeDef *i2c);
+uint8_t MPU6050_Read_AccX();
+uint8_t MPU6050_WakeUp();
 
 #endif /* MPU6050_H_ */
