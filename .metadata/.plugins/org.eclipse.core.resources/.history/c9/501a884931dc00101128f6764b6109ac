@@ -22,7 +22,6 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "mpu6050.h"
-#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -121,7 +120,7 @@ int main(void)
   	  printf("\nFailed to wake up sensor!");
     printf("\nPerforming WHO_AM_I");
     uint8_t data = MPU6050_Who(&hi2c1);
-    printf("\nThe device address is 0x%x",data);
+    printf("\nThe device address is 0x%x");
 
   /* USER CODE END 2 */
 

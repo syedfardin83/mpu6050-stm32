@@ -15,12 +15,3 @@ uint8_t MPU6050_WakeUp(I2C_HandleTypeDef *i2c){
 	else
 		return 0;
 }
-
-uint8_t MPU6050_Who(I2C_HandleTypeDef *i2c){
-	uint8_t data = 0;
-	if(HAL_I2C_Mem_Read(i2c,MPU6050_ADDR<<1,REG_WHO_AM_I,1,&data,1,2000)==HAL_OK)
-		return data;
-	else
-		return 0;
-}
-

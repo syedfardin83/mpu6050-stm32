@@ -1,1 +1,2 @@
 ../mpu6050/mpu6050.c:11:9:MPU6050_WakeUp	2
+../mpu6050/mpu6050.c:19:9:MPU6050_Who	2

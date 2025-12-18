@@ -1,0 +1,17 @@
+/*
+ * mpu6050.c
+ *
+ *  Created on: Dec 18, 2025
+ *      Author: Syed Fardin
+ */
+#include "main.h"
+#include "mpu6050.h"
+
+
+uint8_t MPU6050_WakeUp(I2C_HandleTypeDef *i2c){
+	uint8_t data = 0x0;
+	if(HAL_I2C_Mem_Write(i2c,MPU6050_ADDR,REG_PWR_MGMT_1,1,&data,1,HAL_MAX_DELAY)==HAL_OK)
+		return 1;
+	else
+		return 0;
+}

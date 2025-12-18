@@ -21,8 +21,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "mpu6050.h"
 #include "stdio.h"
+#include "mpu6050.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -112,17 +112,12 @@ int main(void)
   MX_USART2_UART_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-  printf("*****************Started MPU code***********************\n");
   printf("Waking up the sensor now.");
-    uint8_t stat = MPU6050_WakeUp(&hi2c1);
-    if(stat==1)
-  	  printf("\nSensor woke up!");
-    else
-  	  printf("\nFailed to wake up sensor!");
-    printf("\nPerforming WHO_AM_I");
-    uint8_t data = MPU6050_Who(&hi2c1);
-    printf("\nThe device address is 0x%x",data);
-
+  uint8_t stat = MPU6050_WakeUp(&hi2c1);
+  if(stat==1)
+	  printf("\nSensor woke up!");
+  else
+	  printf("\nFailed to wake up sensor!");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -131,7 +126,6 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	  printf("\nCode running...");
-	  HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
