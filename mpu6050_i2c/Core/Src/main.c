@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "stdio.h"
 #include "mpu6050.h"
 /* USER CODE END Includes */
 
@@ -111,7 +112,12 @@ int main(void)
   MX_USART2_UART_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-
+  printf("Waking up the sensor now.");
+  uint8_t stat = MPU6050_WakeUp(&hi2c1);
+  if(stat==1)
+	  printf("\nSensor woke up!");
+  else
+	  printf("\nFailed to wake up sensor!");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -119,7 +125,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  printf("\nCode running...");
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

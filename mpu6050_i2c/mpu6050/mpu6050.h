@@ -4,7 +4,7 @@
  *  Created on: Dec 18, 2025
  *      Author: Syed Fardin
  */
-
+#include "main.h"
 #ifndef MPU6050_H_
 #define MPU6050_H_
 
