@@ -140,7 +140,7 @@ int main(void)
 
 
 //	  printf("\nRaw: %d",a);
-	  printf("\n%.2fg %.2fg %.2fg ",accx,accy,accz);
+	  printf("\n%3fg %3fg %3fg ",accx,accy,accz);
 //	  printf("\nExample float: %f",a);
 	  HAL_Delay(200);
     /* USER CODE BEGIN 3 */
