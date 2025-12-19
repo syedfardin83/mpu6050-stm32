@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include "mpu6050.h"
 #include "stdio.h"
+#include <math.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -50,7 +51,7 @@ SPI_HandleTypeDef hspi1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-int a = 0;
+//int accx=0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -119,10 +120,11 @@ int main(void)
   	  printf("\nSensor woke up!");
     else
   	  printf("\nFailed to wake up sensor!");
-//    printf("\nPerforming WHO_AM_I");
-//    uint8_t data = MPU6050_Who(&hi2c1);
-//    printf("\nThe device address is 0x%x",data);
-
+    HAL_Delay(1000);
+    printf("\nPerforming WHO_AM_I");
+    uint8_t data = MPU6050_Who(&hi2c1);
+    printf("\nThe device address is 0x%x",data);
+    HAL_Delay(1000);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -130,10 +132,17 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-//	  printf("\nCode running...");
+//	  printf("\nReading AccX data...");
+//	  HAL_Delay(500);
 	  float accx = MPU6050_Read_AccX(&hi2c1);
-	  printf("Accx: %f",accx);
-	  HAL_Delay(500);
+	  float accy = MPU6050_Read_AccY(&hi2c1);
+	  float accz = MPU6050_Read_AccZ(&hi2c1);
+
+
+//	  printf("\nRaw: %d",a);
+	  printf("\n%3f %3f %3f ",accx,accy,accz);
+//	  printf("\nExample float: %f",a);
+	  HAL_Delay(200);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

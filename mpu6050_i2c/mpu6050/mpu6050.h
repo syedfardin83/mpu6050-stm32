@@ -15,9 +15,14 @@
 #define REG_WHO_AM_I 0x75
 #define REG_ACCEL_XOUT_L  0x3c
 #define REG_ACCEL_XOUT_H 0x3b
+#define REG_ACCEL_YOUT_H 0x3d
+#define REG_ACCEL_ZOUT_H 0x3f
 
 
 float MPU6050_Read_AccX(I2C_HandleTypeDef *i2c);
+float MPU6050_Read_AccY(I2C_HandleTypeDef *i2c);
+float MPU6050_Read_AccZ(I2C_HandleTypeDef *i2c);
+
 uint8_t MPU6050_WakeUp(I2C_HandleTypeDef *i2c);
 uint8_t MPU6050_Who(I2C_HandleTypeDef *i2c);
 

@@ -764,3 +764,463 @@ arm-none-eabi-size  mpu6050_i2c.elf
   41380	    468	   2252	  44100	   ac44	mpu6050_i2c.elf
 Finished building: default.size.stdout
  
+09:32:18 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41564	    468	   2252	  44284	   acfc	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+09:34:08 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41140	    468	   2252	  43860	   ab54	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+09:38:04 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41492	    468	   2252	  44212	   acb4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+09:38:48 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-size  mpu6050_i2c.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41492	    468	   2252	  44212	   acb4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+09:42:03 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41496	    468	   2252	  44216	   acb8	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+09:49:02 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41568	    468	   2252	  44288	   ad00	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+09:53:45 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41328	    468	   2252	  44048	   ac10	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+09:55:02 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../mpu6050/mpu6050.c:27:7: error: conflicting types for 'MPU6050_Read_AccX'; have 'float(I2C_HandleTypeDef *)' {aka 'float(struct __I2C_HandleTypeDef *)'}
+   27 | float MPU6050_Read_AccX(I2C_HandleTypeDef *i2c){
+      |       ^~~~~~~~~~~~~~~~~
+In file included from ../mpu6050/mpu6050.c:8:
+../mpu6050/mpu6050.h:20:5: note: previous declaration of 'MPU6050_Read_AccX' with type 'int(I2C_HandleTypeDef *)' {aka 'int(struct __I2C_HandleTypeDef *)'}
+   20 | int MPU6050_Read_AccX(I2C_HandleTypeDef *i2c);
+      |     ^~~~~~~~~~~~~~~~~
+make: *** [mpu6050/subdir.mk:19: mpu6050/mpu6050.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j18 all" terminated with exit code 2. Build might be incomplete.
+09:55:40 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41168	    468	   2252	  43888	   ab70	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+09:56:57 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41248	    468	   2252	  43968	   abc0	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:08:56 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41252	    468	   2252	  43972	   abc4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:32:04 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41252	    468	   2252	  43972	   abc4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:35:33 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+../mpu6050/mpu6050.c: In function 'MPU6050_Read_AccX':
+../mpu6050/mpu6050.c:33:17: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   33 |                 printf("\nFailed to read!");
+      |                 ^~~~~~
+../mpu6050/mpu6050.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "mpu6050.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../mpu6050/mpu6050.c:33:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   33 |                 printf("\nFailed to read!");
+      |                 ^~~~~~
+../mpu6050/mpu6050.c:33:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41280	    468	   2252	  44000	   abe0	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:39:06 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41308	    468	   2252	  44028	   abfc	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:41:19 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41272	    468	   2252	  43992	   abd8	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:42:17 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41272	    468	   2252	  43992	   abd8	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:42:46 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41268	    468	   2252	  43988	   abd4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:43:32 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41268	    468	   2252	  43988	   abd4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:43:58 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41268	    468	   2252	  43988	   abd4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:44:39 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41268	    468	   2252	  43988	   abd4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:45:20 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41268	    468	   2252	  43988	   abd4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:50:18 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41304	    468	   2252	  44024	   abf8	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:50:53 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41284	    468	   2252	  44004	   abe4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:54:04 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41620	    468	   2252	  44340	   ad34	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:56:04 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41284	    468	   2252	  44004	   abe4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:57:06 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41300	    468	   2252	  44020	   abf4	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:58:12 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41624	    468	   2252	  44344	   ad38	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+10:59:24 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41652	    468	   2252	  44372	   ad54	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+11:00:16 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41652	    468	   2252	  44372	   ad54	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+11:01:19 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41756	    468	   2252	  44476	   adbc	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+11:02:59 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  41724	    468	   2252	  44444	   ad9c	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
+11:08:56 **** Incremental Build of configuration Debug for project mpu6050_i2c ****
+make -j18 all 
+arm-none-eabi-gcc "../mpu6050/mpu6050.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"mpu6050/mpu6050.d" -MT"mpu6050/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "mpu6050/mpu6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L072xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Syed Fardin/Desktop/Coding/mpu6050-stm32/mpu6050_i2c/mpu6050" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "mpu6050_i2c.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Syed Fardin\Desktop\Coding\mpu6050-stm32\mpu6050_i2c\STM32L072CZYX_FLASH.ld" --specs=nosys.specs -Wl,-Map="mpu6050_i2c.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: mpu6050_i2c.elf
+ 
+arm-none-eabi-size  mpu6050_i2c.elf 
+arm-none-eabi-objdump -h -S mpu6050_i2c.elf  > "mpu6050_i2c.list"
+   text	   data	    bss	    dec	    hex	filename
+  42016	    468	   2252	  44736	   aec0	mpu6050_i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: mpu6050_i2c.list
+ 
