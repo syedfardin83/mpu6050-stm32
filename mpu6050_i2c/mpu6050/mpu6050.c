@@ -66,3 +66,42 @@ float MPU6050_Read_AccZ(I2C_HandleTypeDef *i2c){
 	}
 
 }
+
+float MPU6050_Read_GyroX(I2C_HandleTypeDef *i2c){
+	uint8_t data[2];
+
+		if(HAL_I2C_Mem_Read(i2c,MPU6050_ADDR<<1,REG_GYRO_XOUT_H,1,data,2,100)==HAL_OK){
+	//		printf("\nRead data!");
+			return (((int16_t)(data[0]<<8 | data[1]))/131.0);
+	//		return (int16_t)(data[1]);
+		}else{
+			printf("\nFailed to read!");
+			return 44;
+		}
+}
+
+float MPU6050_Read_GyroY(I2C_HandleTypeDef *i2c){
+	uint8_t data[2];
+
+		if(HAL_I2C_Mem_Read(i2c,MPU6050_ADDR<<1,REG_GYRO_YOUT_H,1,data,2,100)==HAL_OK){
+	//		printf("\nRead data!");
+			return (((int16_t)(data[0]<<8 | data[1]))/131.0);
+	//		return (int16_t)(data[1]);
+		}else{
+			printf("\nFailed to read!");
+			return 44;
+		}
+}
+
+float MPU6050_Read_GyroZ(I2C_HandleTypeDef *i2c){
+	uint8_t data[2];
+
+		if(HAL_I2C_Mem_Read(i2c,MPU6050_ADDR<<1,REG_GYRO_ZOUT_H,1,data,2,100)==HAL_OK){
+	//		printf("\nRead data!");
+			return (((int16_t)(data[0]<<8 | data[1]))/131.0);
+	//		return (int16_t)(data[1]);
+		}else{
+			printf("\nFailed to read!");
+			return 44;
+		}
+}

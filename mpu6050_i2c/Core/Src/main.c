@@ -134,13 +134,13 @@ int main(void)
     /* USER CODE END WHILE */
 //	  printf("\nReading AccX data...");
 //	  HAL_Delay(500);
-	  float accx = MPU6050_Read_AccX(&hi2c1) * 9.8;
-	  float accy = MPU6050_Read_AccY(&hi2c1)* 9.8;
-	  float accz = MPU6050_Read_AccZ(&hi2c1)* 9.8;
+	  float accx = MPU6050_Read_AccX(&hi2c1);
+	  float accy = MPU6050_Read_AccY(&hi2c1);
+	  float accz = MPU6050_Read_AccZ(&hi2c1);
 
 
 //	  printf("\nRaw: %d",a);
-	  printf("\n%.2fg %.2fg %.2fg ",accx,accy,accz);
+	  printf("\n%.2f %.2f %.2f ",accx,accy,accz);
 //	  printf("\nExample float: %f",a);
 	  HAL_Delay(200);
     /* USER CODE BEGIN 3 */
